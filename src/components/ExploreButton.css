@@ -1,0 +1,21 @@
+.explore {
+    position: fixed !important;
+    top: 85%;
+    bottom: 25%;
+    left: 50%;
+    right: 50%;
+    height: 10ch;
+    width: 20ch;
+    text-transform: none !important;
+    background-color: rgb(255, 157, 173) !important;
+    color: white !important;
+    border-color: rgb(255, 157, 173) !important;
+    border-radius: 50px !important;
+    box-shadow: 1px 5px 10px 5px rgb(0, 0, 0, 0.2);
+}
+
+.explore:hover{
+    background-color: pink!important;
+    color: honeydew !important;
+    border-color: pink !important;
+}

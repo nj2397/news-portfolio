@@ -1,0 +1,33 @@
+.slider {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 1%;
+}
+
+.chips {
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    /* scroll-snap-type: x mandatory; */
+    scrollbar-width: none; /* Firefox only */
+    /* margin: 5%;  */
+}
+
+.chips::-webkit-scrollbar {
+    display: none;
+}
+
+
+.selected {
+    background-color: lightpink !important;
+    color: honeydew !important;
+    cursor: pointer;
+}
+
+.notSelected {
+    background-color: white !important;
+    color: rgb(19, 19, 113) !important;
+    cursor: pointer;
+}

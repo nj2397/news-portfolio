@@ -1,0 +1,11 @@
+.navheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
